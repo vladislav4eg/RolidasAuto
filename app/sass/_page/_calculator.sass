@@ -1,0 +1,129 @@
+.calculator
+	.header
+		display: none
+
+	.footer
+		display: none
+
+	.header-section
+		padding-top: 60px
+		h1
+			line-height: 1.19
+			margin-bottom: 50px
+
+		&__left
+			width: 100%
+			&::after
+				display: none
+
+		.sub-title
+			font-family: $title
+			font-size: 30px
+			line-height: 1.37
+		
+		.btn
+			width: 215px
+			text-transform: none
+
+	&__form
+		padding: 60px 0 70px
+
+		h2
+			color: $accent
+			font-size: 26px
+			font-weight: 400
+			ine-height: 1.54
+			margin-bottom: 35px
+
+		label
+			font-family: $title
+			font-size: 18px
+			font-weight: 600
+			line-height: 2.28
+			color: #0f2a44
+			margin-bottom: 0
+
+		input
+			background-color: #fff
+			text-align: left
+			padding: 0 22px
+			font-family: $title
+			&::placeholder
+				line-height: 55px
+
+		.btn
+			width: 260px
+			font-family: $title
+			font-size: 18px
+			text-transform: none
+
+		&_line
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+
+		&_link
+			margin-bottom: 40px
+			width: 100%
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			justify-content: space-between
+
+			input
+				width: 65%
+				height: 55px
+				border-radius: 2px
+				font-size: 18px
+				line-height: 55px
+				font-weight: 600
+
+			.btn
+				width: 25%
+
+		&_input
+			display: flex
+			flex-direction: column
+			margin-bottom: 45px
+
+			input
+				width: 430px
+				height: 55px
+				border: none
+
+			select
+				width: 430px
+		
+		&_block
+			display: flex
+			flex-direction: row
+			flex-wrap: wrap
+			justify-content: space-between
+
+		&_item
+			width: 38%
+			display: flex
+			flex-direction: column
+			&:nth-child(3n)
+				width: 24%
+
+			select
+				width: 220px
+				margin-bottom: 25px
+
+			input
+				width: 220px
+				margin-bottom: 25px
+				height: 55px
+				line-height: 55px
+				border: none
+				&::placeholder
+					line-height: 55px
+					
+	.footer
+		padding-top: 60px
+		padding-bottom: 65px
+
+

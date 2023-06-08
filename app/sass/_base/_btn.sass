@@ -1,0 +1,49 @@
+.btn
+	position: relative
+	display: inline-block
+	border: none
+	outline: none
+	padding: 10px
+	text-align: center
+	line-height: 1
+	color: #fff
+	font-size: 14px
+	transition: all .3s
+	border-radius: 2px
+	border: 1px solid #ffffff
+	width: auto
+
+	&:hover
+		outline: none
+		color: #fff
+		text-decoration: none
+		cursor: pointer
+		background-color: #ff3f49
+		border: 1px solid #ff3f49
+
+	&:focus
+		outline: none
+		color: #fff
+		text-decoration: none
+		cursor: pointer
+		background-color: #ff3f49
+		border: 1px solid #ff3f49
+	
+	&-active
+		width: 210px
+		font-family: $title
+		font-size: 20px
+		font-weight: 700
+		line-height: 34px
+		padding: 12px
+		border-radius: 2px
+		background-image: linear-gradient(180deg, #ff3f49 0%, #dc3840 100%)
+		border: none
+		&:hover
+			border: none
+			box-shadow: 0 5px 10px rgba(255, 63, 73, .3)
+			background-image: linear-gradient(180deg, #dc3840 0%, #dc3840 100%)
+		&:focus
+			border: none
+			box-shadow: 0 5px 10px rgba(255, 63, 73, .3)
+			background-image: linear-gradient(180deg, #dc3840 0%, #dc3840 100%)
